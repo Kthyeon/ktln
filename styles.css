@@ -78,6 +78,15 @@ body {
   line-height: 1.05;
 }
 
+.name-ko {
+  font-family: "Space Grotesk", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8c8376;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
 .role {
   margin: 0 0 6px;
   font-weight: 600;
