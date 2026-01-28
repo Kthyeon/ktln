@@ -125,6 +125,7 @@ h2 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+  color: #6b6155;
 }
 
 p {
@@ -149,7 +150,7 @@ strong {
 }
 
 .link-list a {
-  color: var(--accent);
+  color: #2f5f86;
   text-decoration: none;
   font-weight: 600;
   display: inline-flex;
@@ -163,12 +164,12 @@ strong {
 }
 
 .link-list a:hover {
-  color: var(--accent-2);
+  color: #b37444;
 }
 
 .contact {
   font-weight: 600;
-  color: var(--ink);
+  color: #2a2722;
 }
 
 .bio-pair {
