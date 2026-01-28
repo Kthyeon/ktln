@@ -162,6 +162,24 @@ strong {
   color: var(--ink);
 }
 
+.bio-pair {
+  margin: 0 0 12px;
+  display: grid;
+  gap: 6px;
+}
+
+.bio-pair strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.bio-pair span {
+  display: block;
+  color: #8c8376;
+  font-weight: 500;
+}
+
 .updated {
   font-size: 14px;
   color: var(--muted);
