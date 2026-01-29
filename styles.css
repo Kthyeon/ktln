@@ -76,6 +76,7 @@ body {
   font-family: "Fraunces", "Times New Roman", serif;
   font-size: 36px;
   line-height: 1.05;
+  white-space: nowrap;
 }
 
 .name-ko {
@@ -228,6 +229,6 @@ strong {
   }
 
   .hero-text h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
