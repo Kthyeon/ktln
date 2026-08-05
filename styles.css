@@ -100,32 +100,27 @@ body {
 
 .company-link {
   width: fit-content;
-  margin-top: 16px;
-  padding: 10px 14px;
-  border: 1px solid rgba(45, 91, 138, 0.24);
-  border-radius: 999px;
+  margin-top: 12px;
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  background: rgba(45, 91, 138, 0.08);
+  gap: 6px;
   color: var(--accent);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
-  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease,
-    transform 180ms ease;
+  text-underline-offset: 4px;
+  transition: color 180ms ease;
 }
 
 .company-link:hover {
-  border-color: rgba(45, 91, 138, 0.4);
-  background: var(--accent);
-  color: #fff;
-  transform: translateY(-1px);
+  color: #b37444;
+  text-decoration: underline;
 }
 
 .company-link:focus-visible {
-  outline: 3px solid rgba(45, 91, 138, 0.3);
-  outline-offset: 3px;
+  border-radius: 2px;
+  outline: 2px solid rgba(45, 91, 138, 0.35);
+  outline-offset: 4px;
 }
 
 .company-link-arrow {
