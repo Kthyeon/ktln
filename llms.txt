@@ -17,10 +17,18 @@ At Holiday Robotics, Taehyeon Kim works on embodied AI. He gives robots the know
 to act in the real world. He is not tied to one recipe like VLA or world models. He asks what
 knowledge a robot needs, then designs the benchmarks and models to check it.
 
+Current topics: skill orchestration, vision-language-action models, world-action models,
+simulation benchmarks, sim-to-real benchmarks, and evaluation.
+
 - Knowledge for embodied agents. What a robot must know before it acts, and where that knowledge comes from.
 - Benchmarks and evaluation. Tests that expose real failure modes, not a fixed task suite.
 - Model design. Robot policies beyond a single paradigm.
 - Long-horizon autonomy. Planning, skill composition, and recovery over long horizons.
+
+## Research background
+
+RL and RLHF, test-time compute, search agents, distillation, on-policy learning, and reward
+modeling. Published at ACL, ICLR, NeurIPS, and IJCAI.
 
 ## Selected publications
 

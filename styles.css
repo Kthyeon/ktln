@@ -286,21 +286,37 @@ strong {
 .faq-list {
   margin: 0;
   display: grid;
-  gap: 16px;
+  gap: 20px;
 }
 
 .faq-list dt {
   color: var(--ink);
   font-size: 15px;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.45;
 }
 
 .faq-list dd {
-  margin: 5px 0 0;
+  margin: 8px 0 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.55;
+}
+
+.faq-mark {
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.faq-label {
+  margin-right: 4px;
+  color: #b37444;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.faq-list dd .faq-label {
+  color: #2f5f86;
 }
 
 .faq-list dd a {
