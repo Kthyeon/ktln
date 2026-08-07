@@ -246,6 +246,68 @@ strong {
   color: var(--muted);
 }
 
+.research-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  display: grid;
+  gap: 0;
+}
+
+.research-list li {
+  display: grid;
+  gap: 4px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(226, 215, 199, 0.85);
+}
+
+.research-list li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.research-list li:last-child {
+  padding-bottom: 0;
+}
+
+.research-title {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.research-detail {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.faq-list {
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.faq-list dt {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.faq-list dd {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.faq-list dd a {
+  color: #2f5f86;
+  font-weight: 600;
+}
+
 .pub-meta,
 .highlight-meta,
 .footnote {

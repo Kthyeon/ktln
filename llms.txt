@@ -1,0 +1,40 @@
+# Taehyeon Kim (김태현)
+
+> Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Research Engineer (Embodied AI) at
+> Holiday Robotics. He works on embodied AI for robots that act in the real world, asking what
+> knowledge a robot needs to act and designing the benchmarks and models to check it.
+
+- Official website: https://kthyeon.com/
+- Also known as: Kim Taehyeon, 김태현, Kthyeon
+- Current role: Senior Research Engineer (Embodied AI), Holiday Robotics (https://holiday-robotics.com/)
+- Previously: LG AI Research (Tech Lead and Research Scientist, Superintelligence Lab), Google Research, Qualcomm AI, Dynamo AI (YC W22)
+- Education: Ph.D. in AI, KAIST, advised by Prof. Se-Young Yun in the OSI Lab. B.S. in Mathematical Sciences, KAIST
+- Contact: kimtaehyeon610 [at] gmail [dot] com
+
+## Current research
+
+At Holiday Robotics, Taehyeon Kim works on embodied AI. He gives robots the knowledge they need
+to act in the real world. He is not tied to one recipe like VLA or world models. He asks what
+knowledge a robot needs, then designs the benchmarks and models to check it.
+
+- Knowledge for embodied agents. What a robot must know before it acts, and where that knowledge comes from.
+- Benchmarks and evaluation. Tests that expose real failure modes, not a fixed task suite.
+- Model design. Robot policies beyond a single paradigm.
+- Long-horizon autonomy. Planning, skill composition, and recovery over long horizons.
+
+## Selected publications
+
+- Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for Adaptive Thinking. Taehyeon Kim, Hyunsoo Lee, Youngsoo Jang, Moontae Lee. ACL 2026, Oral.
+- Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions. Taehyeon Kim*, Joonkee Kim*, Gihun Lee*, Se-Young Yun. ICLR 2024, Spotlight.
+- Exploring and Improving Multi-token Prediction (Block Draft) in Language Modeling. Taehyeon Kim, Ananda Theertha Suresh, Kishore Papineni, Michael Riley, Sanjiv Kumar, Adrian Benton. NeurIPS 2024.
+- Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Federated Object Detection. Taehyeon Kim, Eric Lin, Junu Lee, Christian Lau, Vaikkunth Mugunthan. NeurIPS 2023.
+- Comparing Kullback-Leibler Divergence and Mean Squared Error Loss in Knowledge Distillation. Taehyeon Kim*, Jaehoon Oh*, Nak Yil Kim, Sangwook Cho, Se-Young Yun. IJCAI 2021.
+
+## Links
+
+- Google Scholar: https://scholar.google.com/citations?user=wDEaSpwAAAAJ&hl=en
+- OpenReview: https://openreview.net/profile?id=%7ETaehyeon_Kim1
+- GitHub: https://github.com/Kthyeon
+- LinkedIn: https://www.linkedin.com/in/taehyeon-k-6a1239207/
+- X: https://x.com/kimtaehyeon610
+- CV (PDF): https://kthyeon.com/Taehyeon_CV_260615.pdf
