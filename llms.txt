@@ -27,8 +27,8 @@ simulation benchmarks, sim-to-real benchmarks, and evaluation.
 
 ## Research background
 
-RL and RLHF, test-time compute, search agents, distillation, on-policy learning, and reward
-modeling. Published at ACL, ICLR, NeurIPS, and IJCAI.
+RL and RLHF, test-time compute, search agents, perception for autonomous driving, distillation,
+on-policy learning, and reward modeling. Published at ACL, ICLR, NeurIPS, and IJCAI.
 
 ## Selected publications
 
