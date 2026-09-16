@@ -1,29 +1,37 @@
 # Taehyeon Kim (김태현)
 
-> Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Research Engineer (Embodied AI) at
-> Holiday Robotics. He works on embodied AI for robots that act in the real world, asking what
-> knowledge a robot needs to act and designing the benchmarks and models to check it.
+> Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Member of Technical Staff at
+> Holiday Robotics. His research focuses on robot-use agents, benchmarks and evaluation,
+> and data flywheels for robot learning.
 
 - Official website: https://kthyeon.com/
 - Also known as: Kim Taehyeon, 김태현, Kthyeon
-- Current role: Senior Research Engineer (Embodied AI), Holiday Robotics (https://holiday-robotics.com/)
+- Current role: Senior Member of Technical Staff, Holiday Robotics (https://holiday-robotics.com/)
 - Previously: LG AI Research (Tech Lead and Research Scientist, Superintelligence Lab), Google Research, Qualcomm AI, Dynamo AI (YC W22)
 - Education: Ph.D. in AI, KAIST, advised by Prof. Se-Young Yun in the OSI Lab. B.S. in Mathematical Sciences, KAIST
 - Contact: kimtaehyeon610 [at] gmail [dot] com
 
 ## Current research
 
-At Holiday Robotics, Taehyeon Kim works on embodied AI. He gives robots the knowledge they need
-to act in the real world. He is not tied to one recipe like VLA or world models. He asks what
-knowledge a robot needs, then designs the benchmarks and models to check it.
+Taehyeon Kim studies how agents use robot skills to carry out physical tasks, and how data
+and evaluation can improve those skills.
 
-Current topics: skill orchestration, vision-language-action models, world-action models,
-simulation benchmarks, sim-to-real benchmarks, and evaluation.
-
-- Knowledge for embodied agents. What a robot must know before it acts, and where that knowledge comes from.
+- Robot-use agents. Agents that select and compose robot skills to carry out physical tasks, using observations and execution feedback to guide their next action.
 - Benchmarks and evaluation. Tests that expose real failure modes, not a fixed task suite.
-- Model design. Robot policies beyond a single paradigm.
-- Long-horizon autonomy. Planning, skill composition, and recovery over long horizons.
+- Data flywheel. Connecting data generation, labeling, policy training, and evaluation so that observed failures guide the next round of data collection.
+  - Synthetic data generation: using inverse kinematics (IK) and reinforcement learning (RL) to generate robot trajectories in simulation.
+  - Real-world data auto-labeling: turning collected robot data into training examples through automatic annotation and quality checks.
+
+## Selected work experience
+
+- Holiday Robotics: Senior Member of Technical Staff, June 2026–present. Founding member, Embodied AI Team.
+- LG AI Research, April 2025–June 2026: Research Scientist (April–August 2025), Squad Lead, Superintelligence Lab (September–December 2025), and Tech Lead, Superintelligence Lab (January–June 2026).
+- Google Research: Ph.D. Research Intern, October–December 2023. Worked with Adrian Benton and Ananda Theertha Suresh.
+- Dynamo AI: Ph.D. Research Intern, January–May 2023. Worked with Eric Lin.
+- Qualcomm AI: Ph.D. Research Intern, June–December 2021. Worked with Heesoo Myeong.
+
+Roles and dates follow the owner's LinkedIn experience supplied in September 2026;
+additional collaborators are from the linked June 2026 CV. The older CV may show previous details.
 
 ## Research background
 
