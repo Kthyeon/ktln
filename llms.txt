@@ -25,8 +25,8 @@ and evaluation can improve those skills.
 ## Selected work experience
 
 - Holiday Robotics: Senior Member of Technical Staff, June 2026–present. Founding member, Embodied AI Team.
-- LG AI Research, April 2025–June 2026: Research Scientist (April–August 2025), Squad Lead, Superintelligence Lab (September–December 2025), and Tech Lead, Superintelligence Lab (January–June 2026).
-- Google Research: Ph.D. Research Intern, October–December 2023. Worked with Adrian Benton and Ananda Theertha Suresh.
+- LG AI Research, April 2025–June 2026: Research Scientist (April–August 2025), Squad Lead, Superintelligence Lab (September–December 2025), and Tech Lead, Superintelligence Lab (January–June 2026). RL, efficient and effective LLM inference, search agents, and adaptive reasoning.
+- Google Research: Ph.D. Research Intern, October–December 2023. Efficient LLM inference. Worked with Adrian Benton and Ananda Theertha Suresh.
 - Dynamo AI: Ph.D. Research Intern, January–May 2023. Worked with Eric Lin.
 - Qualcomm AI: Ph.D. Research Intern, June–December 2021. Worked with Heesoo Myeong.
 
