@@ -251,31 +251,36 @@ strong {
   font-weight: 500;
 }
 
-.experience-list {
-  list-style: none;
+.experience-rows {
   padding: 0;
   margin: 0;
 }
 
-.experience-list > li {
-  display: grid;
-  grid-template-columns: 104px minmax(0, 1fr);
+.experience-row {
+  display: flex;
+  flex-flow: row nowrap;
   gap: 20px;
-  align-items: start;
+  align-items: flex-start;
   padding: 20px 0;
   border-top: 1px solid var(--border);
 }
 
-.experience-list > li:first-child {
+.experience-row:first-child {
   border-top: 0;
   padding-top: 8px;
 }
 
 .company-logo {
+  flex: 0 0 104px;
   width: 104px;
   height: 64px;
   display: grid;
   place-items: center;
+}
+
+.experience-content {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .company-logo img.company-wordmark {
@@ -320,22 +325,20 @@ strong {
 }
 
 .role-history {
-  list-style: none;
   margin: 8px 0;
   padding: 0 0 0 12px;
   border-left: 2px solid var(--border);
   font-size: 13px;
 }
 
-.role-history li {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 12px;
+.role-history p {
+  margin: 0;
   padding: 2px 0;
 }
 
 .role-history span {
   color: var(--muted);
+  white-space: nowrap;
 }
 
 .research-list {
@@ -512,13 +515,12 @@ strong {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .experience-list > li {
-    grid-template-columns: 72px minmax(0, 1fr);
-    column-gap: 12px;
-    row-gap: 4px;
+  .experience-row {
+    gap: 12px;
   }
 
   .company-logo {
+    flex-basis: 72px;
     width: 72px;
     height: 52px;
   }
