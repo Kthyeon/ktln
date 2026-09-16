@@ -1,7 +1,7 @@
 # Taehyeon Kim (김태현)
 
 > Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Member of Technical Staff at
-> Holiday Robotics. His research focuses on robot-use agents, benchmarks and evaluation,
+> Holiday Robotics. His embodied AI research focuses on robot-use agents, benchmarks and evaluation,
 > and data flywheels for robot learning.
 
 - Official website: https://kthyeon.com/
