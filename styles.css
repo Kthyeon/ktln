@@ -259,8 +259,8 @@ strong {
 
 .experience-list > li {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) auto;
-  gap: 16px;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 20px;
   align-items: start;
   padding: 20px 0;
   border-top: 1px solid var(--border);
@@ -272,13 +272,15 @@ strong {
 }
 
 .company-logo {
-  width: 64px;
+  width: 104px;
   height: 64px;
   display: grid;
   place-items: center;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 12px;
+}
+
+.company-logo img.company-wordmark {
+  width: 100%;
+  height: auto;
 }
 
 .company-logo img {
@@ -298,31 +300,23 @@ strong {
   height: 32px;
 }
 
-.experience-content a, .experience-more a {
-  color: var(--accent);
-  text-decoration: none;
-  text-underline-offset: 3px;
-}
-
-.experience-content a:hover, .experience-more a:hover {
-  text-decoration: underline;
-}
-
 .experience-role {
   margin: 0 0 4px;
   color: var(--ink);
   font-size: 14px;
 }
 
-.experience-detail, .experience-date, .experience-more {
+.experience-detail {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .experience-date {
-  white-space: nowrap;
-  padding-top: 2px;
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .role-history {
@@ -342,10 +336,6 @@ strong {
 
 .role-history span {
   color: var(--muted);
-}
-
-.experience-more {
-  padding-top: 4px;
 }
 
 .research-list {
@@ -385,18 +375,6 @@ strong {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.5;
-}
-
-.research-methods {
-  margin: 6px 0 0;
-  padding-left: 20px;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.55;
-}
-
-.research-methods li + li {
-  margin-top: 8px;
 }
 
 .pub-meta,
@@ -535,25 +513,19 @@ strong {
   }
 
   .experience-list > li {
-    grid-template-columns: 52px minmax(0, 1fr);
+    grid-template-columns: 72px minmax(0, 1fr);
     column-gap: 12px;
     row-gap: 4px;
   }
 
   .company-logo {
-    width: 52px;
+    width: 72px;
     height: 52px;
-    grid-row: span 2;
   }
 
   .company-logo img {
     width: 36px;
     height: 36px;
-  }
-
-  .experience-date {
-    grid-column: 2;
-    white-space: normal;
   }
 
   .hero {
