@@ -40,6 +40,7 @@ on-policy learning, and reward modeling. Published at ACL, ICLR, NeurIPS, and IJ
 
 ## Selected publications
 
+- Contrastive Thinking Decoding: Steering Answer Generation in Reasoning Models. Taehyeon Kim, Youngsoo Jang, Hyunsoo Lee, Yu Jin Kim, Moontae Lee. NeurIPS 2026.
 - Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for Adaptive Thinking. Taehyeon Kim, Hyunsoo Lee, Youngsoo Jang, Moontae Lee. ACL 2026, Oral.
 - Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions. Taehyeon Kim*, Joonkee Kim*, Gihun Lee*, Se-Young Yun. ICLR 2024, Spotlight.
 - Exploring and Improving Multi-token Prediction (Block Draft) in Language Modeling. Taehyeon Kim, Ananda Theertha Suresh, Kishore Papineni, Michael Riley, Sanjiv Kumar, Adrian Benton. NeurIPS 2024.
