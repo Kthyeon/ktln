@@ -46,7 +46,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260916-5" />
+    <link rel="stylesheet" href="styles.css?v=20260927-1" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -57,7 +57,7 @@
             "url": "https://kthyeon.com/",
             "name": "Taehyeon Kim (김태현) | Embodied AI, Holiday Robotics",
             "inLanguage": "en",
-            "dateModified": "2026-09-25",
+            "dateModified": "2026-09-27",
             "mainEntity": { "@id": "https://kthyeon.com/#taehyeon-kim" },
             "about": { "@id": "https://kthyeon.com/#taehyeon-kim" }
           },
@@ -362,9 +362,15 @@
       </section>
 
       <section class="card publications" id="publications">
-        <h2>Selected Publications</h2>
-        <ul class="publication-list">
-          <li>
+        <div class="publications-header">
+          <h2>Publications</h2>
+          <div class="publication-controls" role="group" aria-label="Filter publications" hidden>
+            <button type="button" class="publication-filter" data-filter="selected" aria-controls="publication-list" aria-pressed="true">Selected</button>
+            <button type="button" class="publication-filter" data-filter="all" aria-controls="publication-list" aria-pressed="false">All</button>
+          </div>
+        </div>
+        <ul class="publication-list" id="publication-list">
+          <li data-selected>
             <p class="pub-title">
               Contrastive Thinking Decoding: Steering Answer Generation in Reasoning Models
             </p>
@@ -373,7 +379,7 @@
             </p>
             <p class="pub-meta">NeurIPS 2026</p>
           </li>
-          <li>
+          <li data-selected>
             <p class="pub-title">
               Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for
               Adaptive Thinking
@@ -384,7 +390,7 @@
             </p>
             <p class="pub-meta">ACL 2026 &middot; Oral Presentation</p>
           </li>
-          <li>
+          <li data-selected>
             <p class="pub-title">Multi-Drafter Speculative Decoding with Alignment Feedback</p>
             <p class="pub-authors">
               <strong>Taehyeon Kim</strong><sup>*</sup>, Hojung Jung<sup>*</sup>, and Se-Young Yun
@@ -392,6 +398,26 @@
             <p class="pub-meta">ACL 2026 &middot; Findings</p>
           </li>
           <li>
+            <p class="pub-title">MERIT Feedback Elicits Better Bargaining in LLM Negotiators</p>
+            <p class="pub-authors">J. Oh, M. Aghazada, Y. Shin, S. Yun, and <strong>Taehyeon Kim</strong><sup>&dagger;</sup></p>
+            <p class="pub-meta">ACL 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">AdaSTaR: Adaptive Data Sampling for Training Self-Taught Reasoners</p>
+            <p class="pub-authors">W. Koh, W. Oh, J. Jang, M. Lee, H. Kim, A. Kim, J. Kim, J. Lee, <strong>Taehyeon Kim</strong><sup>&dagger;</sup>, and S. Yun<sup>&dagger;</sup></p>
+            <p class="pub-meta">NeurIPS 2025</p>
+          </li>
+          <li>
+            <p class="pub-title">Guiding Reasoning in Small Language Models with LLM Assistance</p>
+            <p class="pub-authors">Y. Kim<sup>*</sup>, E. Yi<sup>*</sup>, M. Kim, S. Yun<sup>&dagger;</sup>, and <strong>Taehyeon Kim</strong><sup>&dagger;</sup></p>
+            <p class="pub-meta">CoLM 2025 Workshop &middot; Test-time Scaling and Reasoning Models</p>
+          </li>
+          <li>
+            <p class="pub-title">C2: Scalable Auto-Feedback for LLM-based Chart Generation</p>
+            <p class="pub-authors">W. Koh, J. Yoon, M. Lee, Y. Song, J. Cho, J. Kang, <strong>Taehyeon Kim</strong>, S. Yun, Y. Yu, and B. Lee</p>
+            <p class="pub-meta">NAACL 2025 &middot; Oral Presentation</p>
+          </li>
+          <li data-selected>
             <p class="pub-title">
               Exploring &amp; Improving Multi-token Prediction (Block Draft) in Language Modeling
             </p>
@@ -402,6 +428,31 @@
             <p class="pub-meta">NeurIPS 2024</p>
           </li>
           <li>
+            <p class="pub-title">A Unified Framework for Speculative Decoding with Multiple Drafters as a Bandit</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong><sup>*</sup>, Hojung Jung<sup>*</sup>, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2024 Workshop &middot; ENLSP-IV</p>
+          </li>
+          <li>
+            <p class="pub-title">Block Transformer: Global-to-Local Language Modeling for Fast Inference</p>
+            <p class="pub-authors">N. Ho<sup>*</sup>, S. Bae<sup>*</sup>, <strong>Taehyeon Kim</strong>, H. Jo, Y. Kim, T. Schuster, A. Fisch, J. Thorne, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">FLR: Label-Mixture Regularization for Federated Learning with Noisy Labels</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong>, D. Kim, and S. Yun</p>
+            <p class="pub-meta">TMLR 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">Towards Fast Multilingual LLM Inference: Speculative Decoding and Specialized Drafters</p>
+            <p class="pub-authors">E. Yi<sup>*</sup>, <strong>Taehyeon Kim</strong><sup>*</sup>, H. Jeung, D. Chang, and S. Yun</p>
+            <p class="pub-meta">EMNLP 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">Exploring and Improving Drafts in Blockwise Parallel Decoding</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong>, A. T. Suresh, K. Papineni, M. Riley, S. Kumar, and A. Benton</p>
+            <p class="pub-meta">ICML 2024 Workshop &middot; Es-FoMo</p>
+          </li>
+          <li data-selected>
             <p class="pub-title">
               Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from
               Noisy Instructions
@@ -413,8 +464,13 @@
             <p class="pub-meta">ICLR 2024 &middot; Spotlight</p>
           </li>
           <li>
+            <p class="pub-title">Leveraging Normalization Layer in Adapters with Progressive Learning and Adaptive Distillation for Cross-Domain Few-Shot Learning</p>
+            <p class="pub-authors">Y. Yang, <strong>Taehyeon Kim</strong>, and S. Yun</p>
+            <p class="pub-meta">AAAI 2024</p>
+          </li>
+          <li data-selected>
             <p class="pub-title">
-              Navigating Data Heterogeneity in Federated Learning A Semi-Supervised Federated
+              Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Federated
               Object Detection
             </p>
             <p class="pub-authors">
@@ -423,6 +479,41 @@
             <p class="pub-meta">NeurIPS 2023</p>
           </li>
           <li>
+            <p class="pub-title">Weather4cast at NeurIPS 2022: Super-Resolution Rain Movie Prediction under Spatio-temporal Shifts</p>
+            <p class="pub-authors">Gruca et al.</p>
+            <p class="pub-meta">NeurIPS 2022 Competitions Track</p>
+          </li>
+          <li>
+            <p class="pub-title">Region-Conditioned Orthogonal 3D U-Net for Weather4Cast Competition</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong>, S. Kang, H. Shin, D. Yoon, S. Eom, K. Shin, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2022 Workshop &middot; Weather4Cast Competition</p>
+          </li>
+          <li>
+            <p class="pub-title">Layover Intermediate Layer for Multi-Label Classification in Efficient Transfer Learning</p>
+            <p class="pub-authors">S. Eom, <strong>Taehyeon Kim</strong>, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2022 Workshop &middot; Has it Trained Yet?</p>
+          </li>
+          <li>
+            <p class="pub-title">Revisiting the Activation Function for Federated Image Classification</p>
+            <p class="pub-authors">J. Shin, <strong>Taehyeon Kim</strong>, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2022 Workshop &middot; Federated Learning</p>
+          </li>
+          <li>
+            <p class="pub-title">Supernet Training for Federated Image Classification under System Heterogeneity</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong> and S. Yun</p>
+            <p class="pub-meta">ICML 2022 Workshop &middot; Dynamic Neural Networks &middot; Oral Presentation</p>
+          </li>
+          <li>
+            <p class="pub-title">Revisiting Architecture-aware Knowledge Distillation: Smaller Models and Faster Search</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong>, H. Myeong, and S. Yun</p>
+            <p class="pub-meta">ICML 2022 Workshop &middot; HAET</p>
+          </li>
+          <li>
+            <p class="pub-title">Revisiting Orthogonality Regularization: A Study for Convolutional Neural Networks in Image Classification</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong> and S. Yun</p>
+            <p class="pub-meta">IEEE Access 2022</p>
+          </li>
+          <li data-selected>
             <p class="pub-title">FINE Samples for Learning with Noisy Labels</p>
             <p class="pub-authors">
               <strong>Taehyeon Kim</strong><sup>*</sup>, Jongwoo Ko<sup>*</sup>, Sangwook Cho,
@@ -430,7 +521,7 @@
             </p>
             <p class="pub-meta">NeurIPS 2021</p>
           </li>
-          <li>
+          <li data-selected>
             <p class="pub-title">
               Comparing Kullback-Leibler Divergence and Mean Squared Error Loss in Knowledge
               Distillation
@@ -441,8 +532,18 @@
             </p>
             <p class="pub-meta">IJCAI 2021</p>
           </li>
+          <li>
+            <p class="pub-title">Adaptive Local Bayesian Optimization Over Multiple Discrete Variables</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong><sup>*</sup>, J. Ahn<sup>*</sup>, N. Kim<sup>*</sup>, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2020 Workshop &middot; Black-Box Optimization Challenge</p>
+          </li>
+          <li>
+            <p class="pub-title">Efficient Model for Image Classification With Regularization Tricks</p>
+            <p class="pub-authors"><strong>Taehyeon Kim</strong>, J. Kim, and S. Yun</p>
+            <p class="pub-meta">NeurIPS 2019 Competition and Demonstration Track</p>
+          </li>
         </ul>
-        <p class="footnote"><sup>&dagger;</sup> co-corresponding authors; <sup>*</sup> equal contribution.</p>
+        <p class="footnote"><sup>&dagger;</sup> corresponding authors; <sup>*</sup> equal contribution.</p>
       </section>
 
       <section class="grid compact-grid" aria-label="Selected highlights">
@@ -500,5 +601,25 @@
         </div>
       </section>
     </main>
+    <script>
+      const publicationControls = document.querySelector('.publication-controls');
+      const publicationItems = document.querySelectorAll('.publication-list > li');
+      const publicationFilters = publicationControls.querySelectorAll('.publication-filter');
+
+      function setPublicationFilter(filter) {
+        publicationItems.forEach((item) => {
+          item.hidden = filter === 'selected' && !item.hasAttribute('data-selected');
+        });
+        publicationFilters.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.filter === filter));
+        });
+      }
+
+      publicationFilters.forEach((button) => {
+        button.addEventListener('click', () => setPublicationFilter(button.dataset.filter));
+      });
+      setPublicationFilter('selected');
+      publicationControls.hidden = false;
+    </script>
   </body>
 </html>
