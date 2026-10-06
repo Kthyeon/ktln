@@ -2,7 +2,7 @@
 
 > Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Member of Technical Staff at
 > Holiday Robotics. His research connects agent reasoning, reinforcement learning, and efficient inference,
-> with a current focus on harness learning, RL action policies, and embodied-agent evaluation.
+> with a current focus on harness development and learning, RL action policies, data flywheels, and embodied-agent evaluation.
 
 - Official website: https://kthyeon.com/
 - Also known as: Kim Taehyeon, 김태현, Kthyeon
@@ -13,14 +13,15 @@
 
 ## Research focus
 
-- Harness learning with dense feedback: developing meta-harness-style training for learning agent execution harnesses, building on planning, retrieval, and multi-tool orchestration experience.
+- Harness development and learning: developing agent execution harnesses with planning, perception for spatial intelligence, and act-verify loops, alongside meta-harness-style training with dense feedback.
 - Text-and-motion-conditioned RL action policies: developed an algorithm to automate the manual engineering involved in constructing action policies from text and motion. Behavior-cloning regularization helps preserve intended behaviors.
+- Data flywheel: working on grasping and video-based progress labeling across real-world and simulated robot data.
 - Embodied-agent evaluation: building benchmarks for agent behavior and task execution; this work is in progress.
 - Efficient reasoning and post-training: adaptive thinking, answer-generation control, speculative and parallel decoding, and SFT/DPO/GRPO-based training.
 
 ## Selected work experience
 
-- Holiday Robotics: Senior Member of Technical Staff, June 2026–present. Founding member, Embodied AI Team. Developing meta-harness-style learning with dense feedback; built an algorithm to automate text-and-motion-conditioned RL action-policy construction with behavior-cloning regularization; building embodied-agent benchmarks (in progress).
+- Holiday Robotics: Senior Member of Technical Staff, June 2026–present. Founding member, Embodied AI Team. Developing harness planning, spatial perception, and act-verify loops alongside meta-harness-style learning with dense feedback; built an algorithm to automate text-and-motion-conditioned RL action-policy construction with behavior-cloning regularization; working on grasping and video progress labeling for real-world and simulated robot data; building embodied-agent benchmarks (in progress).
 - LG AI Research, April 2025–June 2026: Research Scientist (April–August 2025), Squad Lead, Superintelligence Lab (September–December 2025), and Tech Lead, Superintelligence Lab (January–June 2026). Led 10+ researchers (6+ PhDs) on agentic search and LLM alignment. Built planning and tool-use workflows, retrieval systems, and RL/post-training methods. The expert-document search system achieved higher accuracy than Perplexity, Codex, and Anthropic systems in internal evaluations on this task. Worked with Moontae Lee.
 - Google Research: Ph.D. Research Intern, October–December 2023. Efficient LLM inference. Worked with Adrian Benton and Ananda Theertha Suresh.
 - Dynamo AI: Ph.D. Research Intern, January–May 2023. Worked with Eric Lin.
