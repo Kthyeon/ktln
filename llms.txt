@@ -1,8 +1,8 @@
 # Taehyeon Kim (김태현)
 
 > Taehyeon Kim (김태현) is a KAIST AI Ph.D. and Senior Member of Technical Staff at
-> Holiday Robotics. His embodied AI research focuses on robot-use agents, benchmarks and evaluation,
-> and data flywheels for robot learning.
+> Holiday Robotics. His research focuses on efficient LLM inference and adaptive reasoning,
+> which he is extending to embodied agents.
 
 - Official website: https://kthyeon.com/
 - Also known as: Kim Taehyeon, 김태현, Kthyeon
@@ -11,16 +11,11 @@
 - Education: Ph.D. in AI, KAIST, advised by Prof. Se-Young Yun in the OSI Lab. B.S. in Mathematical Sciences, KAIST
 - Contact: kimtaehyeon610 [at] gmail [dot] com
 
-## Current research
+## Research focus
 
-Taehyeon Kim studies how agents use robot skills to carry out physical tasks, and how data
-and evaluation can improve those skills.
-
-- Robot-use agents. Agents that select and compose robot skills to carry out physical tasks, using observations and execution feedback to guide their next action.
-- Benchmarks and evaluation. Tests that expose real failure modes, not a fixed task suite.
-- Data flywheel. Connecting data generation, labeling, policy training, and evaluation so that observed failures guide the next round of data collection.
-  - Synthetic data generation: using inverse kinematics (IK) and reinforcement learning (RL) to generate robot trajectories in simulation.
-  - Real-world data auto-labeling: turning collected robot data into training examples through automatic annotation and quality checks.
+- Efficient LLM inference and adaptive reasoning: learning when to reason and accelerating answer generation through adaptive thinking, parallel decoding, and speculative decoding.
+- Learning from feedback: using reinforcement learning, evaluation, and adaptive training data to improve reasoning quality and computational efficiency.
+- Current direction at Holiday Robotics: embodied agents that select and compose robot skills, supported by evaluation, synthetic trajectories, and automatic labeling of real-world robot data.
 
 ## Selected work experience
 
@@ -30,20 +25,28 @@ and evaluation can improve those skills.
 - Dynamo AI: Ph.D. Research Intern, January–May 2023. Worked with Eric Lin.
 - Qualcomm AI: Ph.D. Research Intern, June–December 2021. Worked with Heesoo Myeong.
 
-Roles and dates follow the owner's LinkedIn experience supplied in September 2026;
-additional collaborators are from the linked June 2026 CV. The older CV may show previous details.
+Roles and dates follow the owner's LinkedIn experience supplied in September 2026.
+The October 2026 CV uses the same current role and research focus.
 
 ## Research background
 
-RL and RLHF, test-time compute, search agents, perception for autonomous driving, distillation,
-on-policy learning, and reward modeling. Published at ACL, ICLR, NeurIPS, and IJCAI.
+Efficient inference, adaptive reasoning, and LLM alignment, with earlier work on knowledge
+distillation, noisy-label learning, and federated learning. Published at ACL, ICLR, NeurIPS, and IJCAI.
 
-## Selected publications
+## Representative research
+
+- Contrastive Thinking Decoding: NeurIPS 2026, accepted; first author. Steering answer generation in reasoning models.
+
+- RPO: ACL 2026, Oral; first author. Adaptive thinking through root-token policy optimization. https://aclanthology.org/2026.acl-long.816/
+- Instructive Decoding: ICLR 2024, Spotlight; co-first author. Instruction-guided decoding for noisy instructions.
+- Accelerating Blockwise Parallel Language Models with Draft Refinement: NeurIPS 2024; first author, Google Research collaboration. https://proceedings.neurips.cc/paper_files/paper/2024/hash/3c9629e718d931e8d4d240378aa1d3bf-Abstract-Conference.html
+
+## Additional publication details
 
 - Contrastive Thinking Decoding: Steering Answer Generation in Reasoning Models. Taehyeon Kim, Youngsoo Jang, Hyunsoo Lee, Yu Jin Kim, Moontae Lee. NeurIPS 2026.
 - Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for Adaptive Thinking. Taehyeon Kim, Hyunsoo Lee, Youngsoo Jang, Moontae Lee. ACL 2026, Oral.
 - Multi-Drafter Speculative Decoding with Alignment Feedback. Taehyeon Kim*, Hojung Jung*, Se-Young Yun. ACL 2026, Findings.
-- Exploring and Improving Multi-token Prediction (Block Draft) in Language Modeling. Taehyeon Kim, Ananda Theertha Suresh, Kishore Papineni, Michael Riley, Sanjiv Kumar, Adrian Benton. NeurIPS 2024.
+- Accelerating Blockwise Parallel Language Models with Draft Refinement. Taehyeon Kim, Ananda Theertha Suresh, Kishore Papineni, Michael Riley, Sanjiv Kumar, Adrian Benton. NeurIPS 2024.
 - Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions. Taehyeon Kim*, Joonkee Kim*, Gihun Lee*, Se-Young Yun. ICLR 2024, Spotlight.
 - Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Federated Object Detection. Taehyeon Kim, Eric Lin, Junu Lee, Christian Lau, Vaikkunth Mugunthan. NeurIPS 2023.
 - FINE Samples for Learning with Noisy Labels. Taehyeon Kim*, Jongwoo Ko*, Sangwook Cho, Jinhwan Choi, Se-Young Yun. NeurIPS 2021.
@@ -56,4 +59,4 @@ on-policy learning, and reward modeling. Published at ACL, ICLR, NeurIPS, and IJ
 - GitHub: https://github.com/Kthyeon
 - LinkedIn: https://www.linkedin.com/in/taehyeon-k-6a1239207/
 - X: https://x.com/kimtaehyeon610
-- CV (PDF): https://kthyeon.com/Taehyeon_CV_260615.pdf
+- CV (PDF): https://kthyeon.com/Taehyeon_CV_261006.pdf
