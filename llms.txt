@@ -36,10 +36,11 @@ distillation, noisy-label learning, and federated learning. Published at ACL, IC
 ## Representative research
 
 - Contrastive Thinking Decoding: NeurIPS 2026; first author. Steering answer generation in reasoning models.
-
 - RPO: ACL 2026, Oral; first author. Adaptive thinking through root-token policy optimization. https://aclanthology.org/2026.acl-long.816/
+- Multi-Drafter Speculative Decoding with Alignment Feedback: ACL 2026, Findings; co-first author. Speculative decoding with multiple drafters and alignment feedback.
 - Instructive Decoding: ICLR 2024, Spotlight; co-first author. Instruction-guided decoding for noisy instructions.
 - Accelerating Blockwise Parallel Language Models with Draft Refinement: NeurIPS 2024; first author, Google Research collaboration. https://proceedings.neurips.cc/paper_files/paper/2024/hash/3c9629e718d931e8d4d240378aa1d3bf-Abstract-Conference.html
+- Comparing Kullback-Leibler Divergence and Mean Squared Error Loss in Knowledge Distillation: IJCAI 2021; co-first author. Comparing KL and MSE objectives for knowledge distillation.
 
 ## Additional publication details
 
