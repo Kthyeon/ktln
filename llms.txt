@@ -35,7 +35,7 @@ distillation, noisy-label learning, and federated learning. Published at ACL, IC
 
 ## Representative research
 
-- Contrastive Thinking Decoding: NeurIPS 2026, accepted; first author. Steering answer generation in reasoning models.
+- Contrastive Thinking Decoding: NeurIPS 2026; first author. Steering answer generation in reasoning models.
 
 - RPO: ACL 2026, Oral; first author. Adaptive thinking through root-token policy optimization. https://aclanthology.org/2026.acl-long.816/
 - Instructive Decoding: ICLR 2024, Spotlight; co-first author. Instruction-guided decoding for noisy instructions.
